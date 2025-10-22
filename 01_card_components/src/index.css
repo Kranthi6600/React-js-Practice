@@ -1,0 +1,87 @@
+body{
+  background: rgb(44, 43, 43);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.parent{
+  height: 350px;
+  width: 380px;
+  border: 1px solid rgb(103, 101, 101);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 1px 20px 2px rgb(90, 84, 84);
+  flex-wrap: wrap;
+}
+
+.top img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(161, 156, 156);
+  padding: 4px;
+}
+
+.top button{
+  font-size: 10px;
+}
+
+.top{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.bottom button{
+  font-size: 10px;
+}
+
+.center p{
+  font-size: 12px;
+  background: rgba(102, 86, 86, 0.565);
+}
+
+.bottom p{
+  font-size: 12px;
+  background: rgba(102, 86, 86, 0.565);
+  
+}
+
+.center{
+  width: 400px;
+}
+
+.child1{
+  display: flex;
+  gap: 10px;
+}
+
+.child2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+}
+
+.child2 h6{
+  opacity: 0.8;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
