@@ -4,18 +4,27 @@ import AddItem from './components/AddItem.jsx'
 import ListItem from './components/ListItem.jsx'
 
 function App() {
-  const [list, setList] = useState(()=>{
+  const [editItem, setEditItem] = useState(null)
+  const [list, setList] = useState(() => {
     const savedList = localStorage.getItem('products');
-    return savedList ? JSON.parse(savedList) : []; 
+    return savedList ? JSON.parse(savedList) : [];
   })
-  
+
   return (
     <>
       <h1>PRODUCT - LIST</h1>
 
-      <AddItem setList={setList} />
+      <AddItem
+        setList={setList}
+        list={list}
+        editItem={editItem}
+        setEditItem={setEditItem} />
 
-      <ListItem list={list} />
+      <ListItem
+        list={list}
+        setList={setList}
+        setEditItem={setEditItem}
+      />
 
     </>
   )
