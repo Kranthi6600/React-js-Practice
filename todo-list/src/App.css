@@ -1,0 +1,21 @@
+body{
+  background: #252323;
+  color: white;
+}
+
+button {
+  padding: 4px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  margin: 3px;
+  border: 1px solid rgba(212, 210, 210, 0.665);
+  cursor: pointer;
+  background-color: #363333; /* blue */
+  color: #ffffff;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #242020;
+}

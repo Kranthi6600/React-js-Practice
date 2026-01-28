@@ -1,0 +1,17 @@
+body{
+  background: #000;
+  color: white;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(18, 88, 85);
+  padding: 1% 20px;
+}
+
+.nav2{
+  display: flex;
+  gap: 30px;
+}

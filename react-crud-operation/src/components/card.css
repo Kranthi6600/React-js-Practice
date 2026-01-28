@@ -1,0 +1,29 @@
+.card{
+    height: auto;
+    max-width: 500px;
+    padding: 5px;
+    background: hsl(0, 1%, 17%);
+    border-radius: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 1px 5px 10px 1px rgba(118, 114, 114, 0.457);
+}
+
+.item{
+    margin: 5px;
+}
+
+button {
+  margin-left: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+}
